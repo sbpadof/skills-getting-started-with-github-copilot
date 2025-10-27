@@ -156,7 +156,7 @@ footer {
 }
 
 .participants-list {
-  list-style: disc inside;
+  list-style: none;
   margin: 0;
   padding: 0;
   display: block;
@@ -183,4 +183,21 @@ footer {
 .participant-email {
   color: #666;
   font-size: 0.9rem;
+  margin-right: auto;
+}
+
+.delete-button {
+  background: none;
+  border: none;
+  color: #dc3545;
+  font-size: 1.1rem;
+  cursor: pointer;
+  padding: 0 8px;
+  opacity: 0.6;
+  transition: opacity 0.2s;
+}
+
+.delete-button:hover {
+  opacity: 1;
+  background: none;
 }
